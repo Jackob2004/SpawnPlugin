@@ -1,0 +1,12 @@
+name: SpawnPlugin
+version: '${project.version}'
+main: me.shadow_warrior_.spawnplugin.SpawnPlugin
+api-version: 1.16
+authors: [ shadow_warrior_ ]
+description: Spawn plugin
+commands:
+  setspawn:
+    description: Setting spawn location
+    usage: /<setspawn>
+  spawn:
+    description: Teleporting player to the spawn
